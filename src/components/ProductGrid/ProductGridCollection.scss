@@ -1,0 +1,35 @@
+.product-grid-collection {
+  position: relative;
+  .product-grid-image {
+    img {
+      width: 500px;
+      height: 500px;
+    }
+  }
+  .product-grid-collection-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgb(237, 237, 237, 0.4);
+    padding: 10px;
+    border: 1px solid black;
+
+    a {
+      font-size: 30px;
+      color: black;
+      transition: font-size 0.3s;
+      text-decoration: none;
+      padding: 10px;
+      position: relative;
+      z-index: 9999;
+      opacity: 1;
+      &:hover {
+        font-size: 32px;
+        transition-timing-function: ease-in-out;
+        z-index: 9999;
+        opacity: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.product-grid-container {
+  margin-top: 100px;
+
+  h2 {
+    margin: 40px 0;
+  }
+}
+.product-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

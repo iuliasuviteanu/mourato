@@ -1,0 +1,40 @@
+.navbar {
+  border: transparent;
+  justify-content: center;
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: transparent !important;
+
+  a {
+    color: white;
+  }
+
+  svg {
+    height: 20px;
+    width: 20px;
+  }
+  .navbar-brand {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 5px;
+  }
+  .row {
+    width: 100%;
+    margin: 0;
+    .text-center {
+      display: flex;
+      .navbar-nav {
+        justify-content: center;
+        flex: 1;
+      }
+    }
+    .text-right {
+      .navbar-nav {
+        justify-content: flex-end;
+      }
+    }
+  }
+}

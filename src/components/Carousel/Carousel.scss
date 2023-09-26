@@ -1,0 +1,28 @@
+.carousel {
+  .carousel-inner {
+    object-fit: contain;
+
+    img {
+      height: 700px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .carousel-caption {
+      bottom: 50%;
+      transform: translateY(-50%);
+      padding: 0;
+
+      h3,
+      p,
+      a {
+        color: black;
+      }
+    }
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    color: white !important;
+  }
+}
